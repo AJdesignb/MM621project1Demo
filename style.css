@@ -1,8 +1,12 @@
 html, body {
   margin: 0;
   padding: 0;
+  text-align: center;
+  color: beige;
+  background-color: blueviolet;
 }
 
 canvas {
+  margin: auto;
   display: block;
 }

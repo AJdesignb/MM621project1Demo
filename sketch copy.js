@@ -3,16 +3,15 @@ let g;
 let b;
 
 function setup() {
-  createCanvas(600, 600);
-  frameRate(6);
+  let canvas = createCanvas(600, 600);
+  canvas.parent('project');
 }
 
 function draw() {
   background(0);
-  lollipop(500, 100, 500, 300);
-  lollipop(300, 200, 150, 100);
+  lollipop(mouseX, 100, 500, 300);
+  lollipop(300, mouseY, 150, 100);
   lollipop(500 + 40, 500, 75, 80);
-  
 
   // fill(0, 200, 255);
   // rect(290, 200, 20, 150);
